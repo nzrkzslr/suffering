@@ -1,0 +1,9 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "rules": {
+    "no-console": "off"
+  },
+  "env": {
+    "browser": true
+  }
+}

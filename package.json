@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start:web": "lerna run start --scope=@suffering/web",
+    "start:server": "lerna run start --scope=@suffering/server",
+    "l:version": "lerna version"
+  },
+  "devDependencies": {
+    "lerna": "^3.15.0",
+    "prettier": "1.18.2"
+  }
+}
